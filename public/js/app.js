@@ -39,3 +39,8 @@ $("#info").on("submit",function(){
         console.log(response)
     })
  })
+
+ $(document).ready(function(){
+    $(".sidenav").sidenav();
+  });
+  
